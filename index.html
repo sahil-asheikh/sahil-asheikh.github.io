@@ -66,7 +66,15 @@
                         <li class="nav-item">
                             <a class="nav-link active beg-font-segoeui px-2 ms-md-5 ms-xl-3" aria-current="page"
                                 href="contact-me/">
-                                <i class="bi bi-info-circle-fill"></i> &nbsp;Contact Me </a>
+                                <!-- For Large Screen without Icon -->
+                                <span class="d-none d-md-block d-xl-block">
+                                    <i class="bi bi-info-circle-fill"></i> &nbsp;Contact Me
+                                </span>
+                                <!-- For Small Screen without Icon -->
+                                <span class="d-block d-md-none d-xl-none">
+                                    Contact Me
+                                </span>
+                            </a>
                         </li>
                     </ul>
                 </div>

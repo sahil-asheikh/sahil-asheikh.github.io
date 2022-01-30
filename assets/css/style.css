@@ -203,6 +203,16 @@ section{
     border-radius: 5px;
 }
 
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .beg-shadow{
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        border-radius: 0px;
+    }
+}
+
 a{
     text-decoration: none;
 }
