@@ -34,6 +34,10 @@
     color: #818182;
 }
 
+.main{
+    padding: 10px;
+}
+
 .profile-img{
     display: block;
     width: 250px;
@@ -162,7 +166,7 @@ section{
 }
 
 .post:hover{
-    background-color: #313134;
+    /* background-color: #313134; */
     text-decoration: underline;
     text-decoration-color: #C15097;
     text-decoration-thickness: 2px;
