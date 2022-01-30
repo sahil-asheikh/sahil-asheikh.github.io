@@ -15,7 +15,7 @@
 }
 
 .beg-btn-bg{
-    background-color: #3bc6b4;
+    background-color: #81E6D9;
 }
 
 .beg-btn-bg-secondary{
@@ -77,6 +77,10 @@
     width: 100%;
     background-color: white;
     margin: 10px auto;
+}
+
+.align-justify{
+    text-align: justify;
 }
 
 .heading{
