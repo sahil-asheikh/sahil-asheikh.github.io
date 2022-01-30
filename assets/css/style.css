@@ -15,7 +15,7 @@
 }
 
 .beg-btn-bg{
-    background-color: #81E6D9;
+    background-color: #3bc6b4;
 }
 
 .beg-btn-bg-secondary{
@@ -30,6 +30,10 @@
     color: #81E6D9;
 }
 
+.beg-text-gray{
+    color: #818182;
+}
+
 .profile-img{
     display: block;
     width: 250px;
@@ -40,13 +44,22 @@
     padding: 2px;
 }
 
-.work-img{
+.side-img{
     display: block;
     width: 90%;
-    /* height: 250px; */
+    height: 100%;
     border: 2px solid #ffffff;
     margin: 10px auto;
     padding: 2px;
+}
+
+.nav-active{
+    background-color: rgba(113, 112, 112, 0.298);
+    border-radius: 5px;
+}
+
+.nav-active:hover{
+    text-decoration: none;
 }
 
 .header-img{
@@ -63,18 +76,35 @@
 }
 
 .heading{
-    font-size: 24px;
+    font-size: 22px;
     letter-spacing: 2px;
 }
 
 .sub-heading{
-    font-size: 20px;
+    font-size: 16px;
     letter-spacing: 1.5px;
 }
 
 .description{
-    font-size: 17px;
+    font-size: 14.5px;
     letter-spacing: 1px;
+}
+
+.text-contact-me{
+    color: #C15097;
+    cursor: pointer;
+}
+
+.border-none{
+    border: 0px solid #ffffff;
+}
+
+.cursor-default{
+    cursor: default;
+}
+
+.cursor-pointer{
+    cursor: pointer;
 }
 
 .underline-100{
@@ -92,7 +122,7 @@
 }
 
 section{
-    margin: 40px auto;
+    margin: 5px auto;
 }
 
 .work-experiance{
@@ -104,8 +134,8 @@ section{
     margin-right: 10px;
 }
 
-.experiance-company{
-    margin-left: 10px;
+.bio-experiance{
+    margin-left: 5px;
 }
 
 .social-media{
@@ -123,6 +153,45 @@ section{
 
 .social-link:hover{
     background-color: rgba(113, 112, 112, 0.298);
+    border-radius: 5px;
+}
+
+.post{
+    padding: 5px 0px;
+    border-radius: 5px;
+}
+
+.post:hover{
+    background-color: #313134;
+    text-decoration: underline;
+    text-decoration-color: #C15097;
+    text-decoration-thickness: 2px;
+    cursor: pointer;
+}
+
+.post-img{
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    border: 2px solid #ffffff;
+}
+
+.post-title{
+    /* text-decoration: underline; */
+    text-decoration-color: #3bc6b4;
+    text-decoration-thickness: 2px;
+}
+
+.post-description{
+    display: block;
+    width: 80%;
+    margin: 5px auto;
+}
+
+.beg-shadow{
+    box-shadow: 0px 0px 5px 0px #ffffff;
+    -webkit-box-shadow: 0px 0px 5px 0px #ffffff;
+    -moz-box-shadow: 0px 0px 5px 0px #ffffff;
     border-radius: 5px;
 }
 
