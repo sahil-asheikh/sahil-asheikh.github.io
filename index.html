@@ -12,7 +12,7 @@
     <meta property="og:url" content="https://sahil-asheikh.github.io/" />
     <meta property="og:description"
         content="Hi, I am Sahil, a Freelancer and a Full Stack Developer with a passion for building websites and applications.">
-    <meta property="og:image" itemprop="image" content="assets/img/profile-img.jpg" />
+    <meta property="og:image" itemprop="image" content="assets/img/favicon-2.png" />
     <meta property="og:type" content="article" />
     <meta property="og:locale" content="en_GB" />
 
@@ -39,18 +39,18 @@
 
 <body class="beg-bg">
 
-    <main>
+    <main class="main">
         <!-- Nav Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark">
-            <div class="container pe-md-5 pe-xl-5">
+            <div class="container pe-md-2 pe-xl-2">
                 <a class="navbar-brand beg-font-mplusrounded1c" href="index.html">Sahil Sheikh</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler btn my-2" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mt-2">
                         <li class="nav-item">
                             <a class="nav-link active nav-active beg-font-segoeui cursor-default px-2 ms-md-5 ms-xl-3"
                                 aria-current="page" href="#">Home</a>
@@ -66,7 +66,15 @@
                         <li class="nav-item">
                             <a class="nav-link active beg-font-segoeui px-2 ms-md-5 ms-xl-3" aria-current="page"
                                 href="contact-me/">
-                                <i class="bi bi-info-circle-fill"></i> &nbsp;Contact Me </a>
+                                <!-- For Large Screen without Icon -->
+                                <span class="d-none d-md-block d-xl-block">
+                                    <i class="bi bi-info-circle-fill"></i> &nbsp;Contact Me
+                                </span>
+                                <!-- For Small Screen without Icon -->
+                                <span class="d-block d-md-none d-xl-none">
+                                    Contact Me
+                                </span>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -84,7 +92,7 @@
                                 <div class="col-md-4 px-auto">
                                     <img class="profile-img" src="assets/img/favicon-2.png" alt="profile-image">
                                 </div>
-                                <div class="col-md-8 pt-md-4 ps-md-5 pt-xl-3 ps-xl-5 cursor-default">
+                                <div class="align-justify col-md-8 pt-md-4 ps-md-5 pt-xl-3 ps-xl-5 cursor-default">
                                     <span class="beg-font-mplusrounded1c heading">Sahil Sheikh</span> <br>
                                     <span class="sub-heading">Developer / Freelancer</span> <br>
                                     <div class="underline-100"></div>
@@ -127,7 +135,7 @@
                                 <div class="underline-100"></div>
                                 <div class="work-experiance">
                                     <!-- Experiance Freelancer -->
-                                    <ul>
+                                    <ul class="align-justify">
                                         <li class="beg-font-segoeui bio-experiance sub-heading">Working as a Full time
                                             Freelancer.
                                         </li>
@@ -139,9 +147,11 @@
                                         </li>
                                         <li class="beg-font-segoeui bio-experiance sub-heading">Landing pages, Portfolio
                                             websites, E-commerce applications for sale, <a href="contact-me/">
-                                                <span class="text-highlight-secondary">
+                                                <span
+                                                    class="beg-font-mplusrounded1c text-contact-me text-highlight-secondary">
                                                     contact me now!
-                                                </span></a>
+                                                </span>
+                                            </a>
                                         </li>
                                     </ul>
                                 </div>
@@ -286,86 +296,84 @@
                                         </a>
                                     </div>
 
-                                </div>
-
-                                <!-- Anchor button for project -->
-                                <div class="text-center mt-3 mb-2">
-                                    <a class="text-center beg-btn-bg btn btn-light mb-3 beg-font-mplusrounded1c px-4 cursor-pointer border-none"
-                                        href="work/">More Projects
-                                        <i class="bi bi-chevron-right"></i>
-                                    </a>
-                                </div>
-                                <!-- /Anchor button for project -->
-                            </div>
-                            <!-- Project Section -->
-                            <br>
-                            <!-- Post Section -->
-                            <div class="posts">
-                                <span class="beg-font-mplusrounded1c heading">Featured Posts</span> <br>
-                                <div class="underline-100"></div>
-                                <div class="row">
-                                    <!-- Left Column for Posts -->
-                                    <div class="col-md-6">
-                                        <!-- Post-1 -->
-                                        <a class="text-light" href="https://begawosoft.com/" target="_blank">
-                                            <div class="post">
-                                                <img src="assets/img/post/post-img-random-1.jpg" alt="post-img"
-                                                    class="post-img rounded">
-                                                <p class="text-center">
-                                                    <span
-                                                        class="post-title beg-font-mplusrounded1c sub-heading text-highlight-primary">
-                                                        Full Stack Web Development
-                                                    </span>
-                                                    <br>
-                                                    <span class="post-description beg-font-segoeui description">
-                                                        Checkout latest Full Stack Java Web Development Course
-                                                    </span>
-                                                </p>
-                                            </div>
-                                        </a>
-                                        <!-- /Post-1 -->
-                                    </div>
-                                    <!-- /Left Column for Posts -->
-
-                                    <!-- Right Column for Posts -->
-                                    <div class="col-md-6">
-                                        <!-- Post-2 -->
-                                        <a class="text-light" target="_blank"
-                                            href="https://www.youtube.com/c/ImSahilSheikh">
-                                            <div class="post">
-                                                <img src="assets/img/post/post-img-random-1.jpg" alt="post-img"
-                                                    class="post-img rounded">
-                                                <p class="text-center">
-                                                    <span
-                                                        class="post-title beg-font-mplusrounded1c sub-heading text-highlight-primary">
-                                                        Learn Programming for Free
-                                                    </span>
-                                                    <br>
-                                                    <span class="post-description beg-font-segoeui description">
-                                                        Watch latest videos on programming for free on YouTube
-                                                    </span>
-                                                </p>
-                                            </div>
-                                        </a>
-                                        <!-- /Post-2 -->
-                                    </div>
-                                    <!-- /Right Column for Posts -->
-
-                                    <!-- Anchor button for posts -->
+                                    <!-- Anchor button for project -->
                                     <div class="text-center mt-3 mb-2">
                                         <a class="text-center beg-btn-bg btn btn-light mb-3 beg-font-mplusrounded1c px-4 cursor-pointer border-none"
-                                            href="posts/">Popular Posts
+                                            href="work/">More Projects
                                             <i class="bi bi-chevron-right"></i>
                                         </a>
                                     </div>
-                                    <!-- /Anchor button for posts -->
-
+                                    <!-- /Anchor button for project -->
                                 </div>
+                                <!-- Project Section -->
+                                <br>
+                                <!-- Post Section -->
+                                <div class="posts">
+                                    <span class="beg-font-mplusrounded1c heading">Featured Posts</span> <br>
+                                    <div class="underline-100"></div>
+                                    <div class="row">
+                                        <!-- Left Column for Posts -->
+                                        <div class="col-md-6">
+                                            <!-- Post-1 -->
+                                            <a class="text-light" href="https://begawosoft.com/" target="_blank">
+                                                <div class="post">
+                                                    <img src="assets/img/post/post-img-random-1.jpg" alt="post-img"
+                                                        class="post-img rounded">
+                                                    <p class="text-center">
+                                                        <span
+                                                            class="post-title beg-font-mplusrounded1c sub-heading text-highlight-primary">
+                                                            Full Stack Web Development
+                                                        </span>
+                                                        <br>
+                                                        <span class="post-description beg-font-segoeui description">
+                                                            Checkout latest Full Stack Java Web Development Course
+                                                        </span>
+                                                    </p>
+                                                </div>
+                                            </a>
+                                            <!-- /Post-1 -->
+                                        </div>
+                                        <!-- /Left Column for Posts -->
+
+                                        <!-- Right Column for Posts -->
+                                        <div class="col-md-6">
+                                            <!-- Post-2 -->
+                                            <a class="text-light" target="_blank"
+                                                href="https://www.youtube.com/c/ImSahilSheikh">
+                                                <div class="post">
+                                                    <img src="assets/img/post/post-img-random-1.jpg" alt="post-img"
+                                                        class="post-img rounded">
+                                                    <p class="text-center">
+                                                        <span
+                                                            class="post-title beg-font-mplusrounded1c sub-heading text-highlight-primary">
+                                                            Learn Programming for Free
+                                                        </span>
+                                                        <br>
+                                                        <span class="post-description beg-font-segoeui description">
+                                                            Watch latest videos on programming for free on YouTube
+                                                        </span>
+                                                    </p>
+                                                </div>
+                                            </a>
+                                            <!-- /Post-2 -->
+                                        </div>
+                                        <!-- /Right Column for Posts -->
+
+                                        <!-- Anchor button for posts -->
+                                        <div class="text-center mt-3 mb-2">
+                                            <a class="text-center beg-btn-bg btn btn-light mb-3 beg-font-mplusrounded1c px-4 cursor-pointer border-none"
+                                                href="posts/">Popular Posts
+                                                <i class="bi bi-chevron-right"></i>
+                                            </a>
+                                        </div>
+                                        <!-- /Anchor button for posts -->
+
+                                    </div>
+                                </div>
+                                <!-- Post Section -->
                             </div>
-                            <!-- Post Section -->
                         </div>
                     </div>
-                </div>
             </section>
             <!-- /Bio Section -->
         </div>

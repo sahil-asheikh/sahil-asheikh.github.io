@@ -15,7 +15,7 @@
 }
 
 .beg-btn-bg{
-    background-color: #3bc6b4;
+    background-color: #81E6D9;
 }
 
 .beg-btn-bg-secondary{
@@ -32,6 +32,10 @@
 
 .beg-text-gray{
     color: #818182;
+}
+
+.main{
+    padding: 10px;
 }
 
 .profile-img{
@@ -73,6 +77,10 @@
     width: 100%;
     background-color: white;
     margin: 10px auto;
+}
+
+.align-justify{
+    text-align: justify;
 }
 
 .heading{
@@ -200,7 +208,7 @@ section{
 }
 
 .post:hover{
-    background-color: #313134;
+    /* background-color: #313134; */
     text-decoration: underline;
     text-decoration-color: #C15097;
     text-decoration-thickness: 2px;
@@ -232,6 +240,16 @@ section{
     -webkit-box-shadow: 0px 0px 5px 0px #ffffff;
     -moz-box-shadow: 0px 0px 5px 0px #ffffff;
     border-radius: 5px;
+}
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .beg-shadow{
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        border-radius: 0px;
+    }
 }
 
 a{
