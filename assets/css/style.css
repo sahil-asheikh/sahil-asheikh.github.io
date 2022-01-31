@@ -98,7 +98,12 @@
     letter-spacing: 1px;
 }
 
-.text-contact-me{
+.text-highlight-primary{
+    color: #81E6D9;
+    cursor: pointer;
+}
+
+.text-highlight-secondary{
     color: #C15097;
     cursor: pointer;
 }
@@ -164,6 +169,39 @@ section{
     border-radius: 5px;
 }
 
+.project{
+    padding: 5px 0px;
+    border-radius: 5px;
+}
+
+.project:hover{
+    background-color: #313134;
+    text-decoration: underline;
+    text-decoration-color: #C15097;
+    text-decoration-thickness: 2px;
+    cursor: pointer;
+}
+
+.project-img{
+    display: block;
+    width: 350px;
+    height: 200px;
+    margin: 10px auto;
+    border: 2px solid #ffffff;
+}
+
+.project-title{
+    /* text-decoration: underline; */
+    text-decoration-color: #3bc6b4;
+    text-decoration-thickness: 2px;
+}
+
+.project-description{
+    display: block;
+    width: 80%;
+    margin: 5px auto;
+}
+
 .post{
     padding: 5px 0px;
     border-radius: 5px;
@@ -179,7 +217,8 @@ section{
 
 .post-img{
     display: block;
-    width: 80%;
+    width: 350px;
+    height: 200px;
     margin: 10px auto;
     border: 2px solid #ffffff;
 }
