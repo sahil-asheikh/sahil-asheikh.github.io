@@ -1,4 +1,5 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -110,8 +111,8 @@ ul.CTAs a {
 
 .active {
     background-color: #81E6D9;
-    margin: 2px;
-    text-decoration: underline;
+    margin: 3px;
+    /* text-decoration: underline; */
     text-decoration-color: #C15097;
     text-decoration-thickness: 2px;
 }
@@ -137,9 +138,11 @@ ul.CTAs a {
     #sidebar {
         margin-left: -250px;
     }
+
     #sidebar.active {
         margin-left: 0;
     }
+
     #sidebarCollapse span {
         display: none;
     }
